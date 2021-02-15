@@ -1,8 +1,8 @@
 class Solution {
 public:
   /*
-  ** Complexity time: O(n)
-  ** Complexity space: O(n)
+  ** Time Complexity: O(n)
+  ** Space Complexity: O(n)
   */
   vector<int> twoSum(vector<int>& nums, int target) {
     vector<int> solution(2);
