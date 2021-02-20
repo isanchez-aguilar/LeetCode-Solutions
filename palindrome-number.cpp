@@ -1,6 +1,10 @@
 class Solution {
 public:
-    bool isPalindrome(int x) {
+    /*
+		** Time Complexity: O(log2(n))
+		** Space Complexity: O(log2(n))
+		*/
+		bool isPalindrome(int x) {
       if (x < 0)
         return false;
       
