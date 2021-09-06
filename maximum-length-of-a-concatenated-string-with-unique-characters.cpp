@@ -22,7 +22,8 @@ namespace SolutionUtils {
 class Solution {
 public:
   /*
-  ** Time Complexity: O(2^|arr| * )
+  ** Time Complexity: O(2^|arr| * |arr|)
+  ** Space Complexity: O(2^|arr| * |arr|)
   */
   int maxLength(const vector<string>& arr) {
     lengths = vector<int>(arr.size());
